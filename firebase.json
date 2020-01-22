@@ -1,1 +1,10 @@
-{}
+{
+  "hosting": {
+    "public": "redmi@DESKTOP-NHFM00I MINGW64 ~/Desktop/PROGRAMMING/historyquiz/historyquiz",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
