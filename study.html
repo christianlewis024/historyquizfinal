@@ -4,32 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <link rel="stylesheet" href="study.css">
     <link rel="stylesheet" href="index.css">
 
-    <title>History Quiz</title>
+    <title>Study</title>
 </head>
 
 <body>
-    <header>
-        <h2>The Weekly American History Quiz</h2>
-    </header>
-    <br>
-    <br><br><br>
-    <section class="banner">
-        <img src="facesnew.png" alt="facesnew" height="290px">
-        <div class="welcome">
-            <h2>
-                Welcome to <span>The Weekly American History Quiz!</span>
-            </h2>
-        </div>
-    </section>
     <!-- NAVBAR -->
+    <!-- <nav class="main-nav">
+        <div class="nav-wrapper container">
+
+            <ul id="nav-mobile" class="nav navbar-nav">
+                <li class="logged-in" style="display: none;">
+                    <a href="#" class="white-text modal-trigger" data-target="modal-account">Account</a>
+                </li>
+                <li class="logged-in" style="display: none;">
+                    <a href="#" class="white-text" id="logout">Logout</a>
+                </li>
+                <li class="admin" style="display: none;">
+                    <a href="#" class="white-text modal-trigger" data-target="modal-create">Create Guide</a>
+                </li>
+                <li class="logged-out" style="display: none;">
+                    <a href="#" class="white-text modal-trigger" data-target="modal-login">Login</a>
+                </li>
+                <li class="logged-out" style="display: none;">
+                    <a href="#" class="white-text modal-trigger" data-target="modal-signup">Sign up</a>
+                </li>
+                </span>
+            </ul>
+        </div>
+    </nav> -->
 
     <nav class="main-nav">
         <div class="wrapper">
@@ -77,6 +87,10 @@
     </nav>
 
 
+
+
+
+
     <!-- SIGN UP MODAL -->
     <div id="modal-signup" class="modal">
         <div class="modal-content">
@@ -87,20 +101,15 @@
                     <label for="signup-email">Email address</label>
                 </div>
                 <div class="input-field">
-                    <input type="text" id="username" required />
-                    <label for="username">Enter Username</label>
-                </div>
-
-                <div class="input-field">
                     <input type="password" id="signup-password" required />
                     <label for="signup-password">Choose password</label>
                 </div>
-
                 <div class="input-field">
                     <input type="text" id="signup-bio" required />
                     <label for="signup-bio">One Line Bio</label>
                 </div>
-                <button class="btn red darken-2 z-depth-0">Sign up</button>
+                <button class="btn yellow darken-2 z-depth-0">Sign up</button>
+                <p class="error pink-text center-align"></p>
             </form>
         </div>
     </div>
@@ -118,7 +127,7 @@
                     <input type="password" id="login-password" required />
                     <label for="login-password">Your password</label>
                 </div>
-                <button class="btn red darken-2 z-depth-0">Login</button>
+                <button class="btn yellow darken-2 z-depth-0">Login</button>
             </form>
         </div>
     </div>
@@ -131,81 +140,94 @@
         </div>
     </div>
 
-    <!-- CONTENT BELOW-->
+    <!-- CREATE GUIDE MODAL
+    <div id="modal-create" class="modal">
+        <div class="modal-content">
+            <h4>Create Guide</h4><br />
+            <form id="create-form">
+                <div class="input-field">
+                    <input type="text" id="title" required>
+                    <label for="title">Guide Title</label>
+                </div>
+                <div class="input-field">
+                    <textarea id="content" class="materialize-textarea" required></textarea>
+                    <label for="content">Guide Content</label>
+                </div>
+                <button class="btn yellow darken-2 z-depth-0">Create</button>
+            </form>
+        </div>
+    </div> -->
 
-    <main>
-        <article>
-            <h2>Welcome to the Weekly American History Quiz! </h2>
-            <p>Every week we will have a quiz on a different theme within the topic of US history. Compete Monday
-                through Saturday and check for your ranking and score on Sunday.
-                <br>
-                Our mission is to expand your knowledge of American history then test you on it! You do not need to be
-                an expert to play. </p>
-        </article>
-    </main>
-    <div id="toGetStarted">
-        <h3>To Get Started:</h3>
-        <p>Simply Register or Log In if you already have an account, then go to the Play tab to
-            begin!</p>
-    </div>
-    <div id="prepareForNextWeek">
-        <h3>Prepare for next week!</h3>
-        <p>In order to give everyone a fair shot at each quiz, we like to announce in advance what the topic of next
-            week's quiz will be. </p>
-        <p class="nextweekstopic">
-            <em> Next Weeks Topic!: America's Role in WW1</em>
-        </p>
-        <img src="ww1troops.webp" alt="ww1troops" height="200px">
-        <p>Check the <a href="study.html">Study</a> tab to prepare for next week's quiz!
-        </p>
-    </div>
-    <div id="lastWeeksTopWinners">
-        <h2>Last Weeks Top Winners</h2>
-        <ul>
-            <div class="spotOne">
-                <li>
-                    #1: Christian
-                </li>
-            </div>
-            <br>
-            <div class="spotTwo">
-                <li>
-                    #2: Chanel
-                </li>
-            </div>
-            <br>
-            <div class="spotThree">
-                <li>
-                    #3: Willy Wallace
-                </li>
-            </div>
-            <br>
-            <div class="spotFour">
-                <li>
-                    #4: Sandy Cheeks
-                </li>
-            </div>
-            <br>
-            <div class="spotFive">
-                <li>
-                    #5: Waldo
-                </li>
-            </div>
+    <!-- GUIDE LIST
+    <div class="container" style="margin-top: 40px;">
+        <ul class="collapsible z-depth-0 guides" style="border: none;">
 
-            <br><br>
         </ul>
+    </div> -->
+
+    <header>
+        <h2>The Weekly American History Quiz</h2>
+    </header>
+    <!-- <nav class="main-nav">
+
+        <ul>
+            <li><a href="home.html" class="home">Home</a></li>
+            <li><a href="register.html" class="register">Register</a></li>
+            <li><a href="login.html" class="login">Login</a></li>
+            <li><a href="Play.html" class="play">Play</a></li>
+            <li><a href="Leaderboards.html" class="leaderboards">Leaderboards</a></li>
+            <li><a href="study.html" class="study">Study</a></li>
+
+        </ul>
+    </nav>
+    --->
+    <br><br><br><br><br>
+
+    <div id="studyAndLearn">
+        <h1>
+            <p>Take some time to read, listen, or watch and get a jump on the competition! <br>
+                Study and Learn: Prepare for next week's Quiz!
+            </p>
+
+        </h1>
+        <p>Take some time to read, listen, or watch and get a jump on the competition!
+            <br>
+            Check here once a week for books, articles, links to podcasts or youtube videos. Most of the questions from
+            the quiz will be pulled directly from these sources!
+        </p>
 
     </div>
-    <div id="backToTop"><a href="#top">Back To Top</a></div>
 
+    <div id="books">
+        <h2>Books: </h2>
+        <br><br><br><br><br>
+    </div>
 
+    <div id="youTube">
+        <h2>Video links: </h2>
+        <br><br><br><br><br>
+    </div>
+
+    <div id="podcasts">
+        <h2>Podcast episodes from various sources: </h2>
+        <br><br><br><br><br>
+    </div>
+
+    <div id="blogs">
+        <h2>Blogs and articles: </h2>
+        <br><br><br><br><br>
+    </div>
+
+    <div id="other">
+        <h2>Other good sources: </h2>
+        <br><br><br><br><br>
     </div>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
+https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
 
@@ -229,14 +251,15 @@
         const auth = firebase.auth();
         const db = firebase.firestore();
 
-        // update firestore settings
-        // db.settings({ timestampsInSnapshots: true});
+ // update firestore settings
+ // db.settings({ timestampsInSnapshots: true});
     </script>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="auth.js"></script>
     <script src="index.js"></script>
+
 </body>
 
 </html>

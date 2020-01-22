@@ -151,7 +151,7 @@ nav{
     .box{
         /* height: 10px; */
         flex: 0 0 100x;
-       
+       width: 320px;
     }
     .one{
         /* background: red; */
@@ -388,6 +388,99 @@ main p{
 }
 
 #playInfo{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 8px solid rgb(253, 0, 0);
+    /* display: inline-block; */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 75%;
+    border-radius: 30px;
+    color: blue;
+}
+
+#studyAndLearn {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 8px solid rgb(253, 0, 0);
+    /* display: inline-block; */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 75%;
+    border-radius: 30px;
+    color: blue;
+}
+#studyAndLearn p{
+    font-size: larger;
+}
+
+#books {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 8px solid rgb(253, 0, 0);
+    /* display: inline-block; */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 75%;
+    border-radius: 30px;
+    color: blue;
+}
+
+#youTube {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 8px solid rgb(253, 0, 0);
+    /* display: inline-block; */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 75%;
+    border-radius: 30px;
+    color: blue;
+}
+
+#podcasts {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 8px solid rgb(253, 0, 0);
+    /* display: inline-block; */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 75%;
+    border-radius: 30px;
+    color: blue;
+}
+
+#blogs {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 8px solid rgb(253, 0, 0);
+    /* display: inline-block; */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 75%;
+    border-radius: 30px;
+    color: blue;
+}
+
+#other {
     max-width: 100%;
     width: 1200px;
     margin: 80px auto;
