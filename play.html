@@ -1,0 +1,190 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+
+    <title>Play</title>
+</head>
+
+<body>
+    <header>
+        <h2>The Weekly American History Quiz</h2>
+    </header>
+    <!-- <nav class="main-nav">
+
+        <ul>
+            <li><a href="home.html" class="home">Home</a></li>
+            <li><a href="register.html" class="register">Register</a></li>
+            <li><a href="login.html" class="login">Login</a></li>
+            <li><a href="Play.html" class="play">Play</a></li>
+            <li><a href="Leaderboards.html" class="leaderboards">Leaderboards</a></li>
+            <li><a href="study.html" class="study">Study</a></li>
+
+        </ul>
+    </nav> -->
+    <!-- <br><br><br><br> -->
+    <!-- NAVBAR -->
+
+    <nav class="main-nav">
+        <div class="wrapper">
+
+
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <section id="blocks">
+                    <div class="box one">
+                        <li class="logged-in" style="display: none;"><a href="index.html" class="home">Home</a></li>
+
+                    </div>
+                    <div class="box two">
+                        <li class="logged-in" style="display: none;">
+                            <a href="#" class="white-text" id="logout">Logout</a>
+                        </li>
+                    </div>
+                    <!-- <li class="logged-in">
+                    <a href="#" class="grey-text modal-trigger" data-target="modal-create">Create Guide</a>
+                </li> -->
+                    <div class="box three">
+                        <li class="logged-out" style="display: none;">
+                            <a href="#" class="white-text modal-trigger" data-target="modal-login">Login</a>
+                        </li>
+                    </div>
+                    <div class="box four">
+                        <li class="logged-out" style="display: none;">
+                            <a href="#" class="white-text modal-trigger" data-target="modal-signup">Sign up</a>
+                        </li>
+                    </div>
+                    <div class="box five">
+                        <li class="logged-in" style="display: none;">
+                            <a href="#" class="white-text modal-trigger" data-target="modal-account">Account</a>
+                        </li>
+                    </div>
+                    <div class="box six">
+                        <li class="logged-in" style="display: none;"><a href="Play.html" class="play">Play</a></li>
+                    </div>
+
+                </section>
+            </ul>
+        </div>
+    </nav>
+    <!-- SIGN UP MODAL -->
+    <div id="modal-signup" class="modal">
+        <div class="modal-content">
+            <h4>Sign up</h4><br />
+            <form id="signup-form">
+                <div class="input-field">
+                    <input type="email" id="signup-email" required />
+                    <label for="signup-email">Email address</label>
+                </div>
+                <div class="input-field">
+                    <input type="text" id="username" required />
+                    <label for="username">Enter Username</label>
+                </div>
+
+                <div class="input-field">
+                    <input type="password" id="signup-password" required />
+                    <label for="signup-password">Choose password</label>
+                </div>
+
+                <div class="input-field">
+                    <input type="text" id="signup-bio" required />
+                    <label for="signup-bio">One Line Bio</label>
+                </div>
+                <button class="btn red darken-2 z-depth-0">Sign up</button>
+            </form>
+        </div>
+    </div>
+    <!-- LOGIN MODAL -->
+    <div id="modal-login" class="modal">
+        <div class="modal-content">
+            <h4>Login</h4><br />
+            <form id="login-form">
+                <div class="input-field">
+                    <input type="email" id="login-email" required />
+                    <label for="login-email">Email address</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="login-password" required />
+                    <label for="login-password">Your password</label>
+                </div>
+                <button class="btn red darken-2 z-depth-0">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ACCOUNT MODAL -->
+    <div id="modal-account" class="modal">
+        <div class="modal-content center-align">
+            <h4>Account details</h4><br />
+            <div class="account-details"></div>
+        </div>
+    </div>
+
+    <!-- CONTENT BELOW-->
+
+    <div id="playInfo">
+        <h1>
+            Get Ready!
+        </h1>
+        <p>You will be given 30 seconds to answer each question. There are 10 questions total. </p>
+        <p>This week's topic: An easy quiz on George Washington. Questions and answers for this example quiz were taken
+            from https://www.mountvernon.org/</p>
+        <br>
+        <img src="img/georgefrown.jfif" alt="georgeFrown" height="200px">
+        <br>
+
+        <br>
+        <div id="button"> <a href="game.html"><button>Begin Quiz!</button></a>
+            <br><br><br>
+        </div>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+ https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyC0iu9247KzTL4zqA5j_QaszpItQ2WL6HU",
+            authDomain: "historyquiz-b4b71.firebaseapp.com",
+            databaseURL: "https://historyquiz-b4b71.firebaseio.com",
+            projectId: "historyquiz-b4b71",
+            storageBucket: "historyquiz-b4b71.appspot.com",
+            messagingSenderId: "328220291227",
+            appId: "1:328220291227:web:ac1312b6c86f7aa84d963e",
+            measurementId: "G-KWPVYZHB8P"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        // firebase.analytics();
+
+        // make auth and firestore references
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+
+    // update firestore settings
+    // db.settings({ timestampsInSnapshots: true});
+    </script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="auth.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>

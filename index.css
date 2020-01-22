@@ -1,0 +1,403 @@
+/* ***************************************************************
+* Main style sheet. first section will be broad targeting. Then 
+* each div id will have its own area. 
+* 
+*******************************************************************/
+
+/*  Broad Targeting */
+
+body, ul, li, h1, h2 a{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-color: lightskyblue;
+    background-image: url("starsonly.svg");
+}
+header{
+    background-color: rgba(219, 56, 56, 0.973);
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h2{
+    color: white;
+    border: 8px solid blue;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+}
+
+/* Specific Targeting */
+
+
+
+/* *********************************************************
+* All BANNER related styling will go in here.
+*                                                          */
+.banner{
+    position: relative;
+    top: 2px;
+
+}
+
+.banner img {
+    max-width: 100%;
+    
+
+}
+.banner .welcome{
+    position: absolute;
+    left: 180px;
+    top: 230px;
+    color:red;
+
+}
+
+.banner h2{
+    font-size: 20px
+}
+.banner h2 span{
+    font-size: 1.3em;
+}
+
+/********************************************************
+* All NAVIGATION related styling will go in here, 
+*                                                      */
+
+@media only screen and (max-width:475px){
+    .navbar{
+      padding:0.5rem 2rem;
+    }  
+     .navbar-nav{
+         flex-flow:column nowrap;
+       }
+    
+     }
+
+
+#navigation {
+    padding: 20px;
+    background-color: rgb(0, 0, 0);}
+
+nav{
+    background-color: #a39b9be7;
+    border: 20px;
+    /* padding: 10px; */
+    position: sticky;
+    
+    top: 146px;
+    
+}
+/* nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+
+/* #main-nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 26px;
+    
+} */
+/* nav .li {
+    width: 100%;
+    text-decoration: none;
+    color: #4b4b4b;
+    padding: 40px;
+} */
+
+/* nav li a.home{
+    /* color: white; */
+    /* text-transform: uppercase;
+    text-transform: capitalize;} */
+/* nav #main-nav{
+
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
+    display: inline-flex;
+    flex-flow: row wrap;
+
+} */
+.main-nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 26px;
+}
+.main-nav ul{
+    width: 100%;
+    display: inline-block;
+    font-size: 26px;
+}
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+#blocks{
+    display: flex;
+    /* background: #fff; */
+    justify-content: flex-start;
+    height: 200px;
+    }
+    .box{
+        /* height: 10px; */
+        flex: 0 0 100x;
+       
+    }
+    .one{
+        /* background: red; */
+        flex-basis: 100px;
+    }
+    
+    .two{
+        /* background: blue; */
+        flex-basis: 100px;
+    }
+    .three{
+        /* background: green; */
+        flex-basis: 100px;
+    }
+    .four{
+        /* background: green; */
+        flex-basis: 800px;
+    }
+    .five{
+        /* background: green; */
+        flex-basis: 100px;
+    }
+    .six{
+        /* background: green; */
+        flex-basis: 100px;
+    }
+
+/* nav .main-nav{
+    padding: 40px;
+} */
+
+/* nav li a.register{
+    color: white;
+}
+nav li a.login{
+    color: white;
+}
+nav li a.play{
+    color: white;
+}
+nav li a.leaderboards{
+    color: white;
+}
+nav li a.study{
+    color: white;
+} */
+
+/*****************************************************************
+* all MAIN and Welcome article styling to go here
+*                                                                */
+
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 8px solid rgb(253, 0, 0);
+    /* display: inline-block; */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 75%;
+    border-radius: 30px;
+    color: blue;
+    
+}
+
+main p{
+    font-size: larger;
+    color: black;
+}
+
+/*      TO GET STARTED STYLING HERE         ***********/
+
+
+#toGetStarted {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 8px solid rgb(253, 0, 0);
+    /* display: inline-block; */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 75%;
+    border-radius: 30px;
+    color: blue;
+}
+#toGetStarted p{
+    font-size: larger;
+    color: black;
+}
+
+/*     PREPARE FOR NEXT WEEK STYLING HERE     **************/
+
+#prepareForNextWeek {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 8px solid rgb(253, 0, 0);
+    /* display: inline-block; */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 75%;
+    border-radius: 30px;
+    color: blue;
+}
+
+#prepareForNextWeek p{
+    font-size: larger;
+    color: black;
+}
+
+/* LAST WEEKS TOP WINNERS STYLING HERE **********/
+
+#lastWeeksTopWinners {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 8px solid rgb(253, 0, 0);
+    /* display: inline-block; */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 75%;
+    border-radius: 30px;
+    color: blue;
+}
+#lastWeeksTopWinners li{
+    list-style-type: none;
+    font-size: larger;
+}
+
+/* STYLING FOR EACH INDIVIDUAL SPOT, COULD HIGHLIGHT TOP 3, ETC *****/
+
+.spotOne {
+    /* border: 4px solid rgb(253, 0, 0);
+    color: blue; */
+    border-bottom: 6px solid red;
+  background-color: lightgrey;
+  border-top: 3px solid red;
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+  box-sizing: border-box;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 350px;
+}
+.spotTwo {
+    /* border: 4px solid rgb(253, 0, 0);
+    color: blue; */
+    border-bottom: 6px solid red;
+  background-color: lightgrey;
+  border-top: 3px solid red;
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+  box-sizing: border-box;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 350px;
+}
+.spotThree {
+    /* border: 4px solid rgb(253, 0, 0);
+    color: blue; */
+    border-bottom: 6px solid red;
+  background-color: lightgrey;
+  border-top: 3px solid red;
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+  box-sizing: border-box;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 350px;
+}
+.spotFour {
+    /* border: 4px solid rgb(253, 0, 0);
+    color: blue; */
+    border-bottom: 6px solid red;
+  background-color: lightgrey;
+  border-top: 3px solid red;
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+  box-sizing: border-box;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 350px;
+}
+.spotFive {
+    /* border: 4px solid rgb(253, 0, 0);
+    color: blue; */
+    border-bottom: 6px solid red;
+  background-color: lightgrey;
+  border-top: 3px solid red;
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+  box-sizing: border-box;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 350px;
+}
+#backToTop {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 8px solid rgb(253, 0, 0);
+    /* display: inline-block; */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 75%;
+    border-radius: 30px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 600px;
+    
+}
+
+#playInfo{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 8px solid rgb(253, 0, 0);
+    /* display: inline-block; */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 75%;
+    border-radius: 30px;
+    color: blue;
+}
