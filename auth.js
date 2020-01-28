@@ -233,85 +233,85 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {   // QUESTION #1
-        question: "What was the name of George Washington's home?",
-        imgSrc: "img/georgefrown.jfif",
-        choiceA: "Monticello",
-        choiceB: "Montecito",
-        choiceC: "Mount Vernon",
-        choiceD: "The White House",
-        correct: "C"
+        question: "Which of the following was NOT taxed in the stamp act? ",
+        imgSrc: "img/bostonmassacre.jpg",
+        choiceA: "Dice and playing cards",
+        choiceB: "Gunpowder",
+        choiceC: "Legal documents ",
+        choiceD: "Newspapers",
+        correct: "B"
     }, { // QUESTION #2
-        question: "On February 22, 1732 George Washington was born here:",
-        imgSrc: "img/georgefrown.jfif",
-        choiceA: "Philadelphia, PA",
-        choiceB: "Bristol, England",
-        choiceC: "Mount Vernon, VA",
-        choiceD: "Pope's Creek, VA",
-        correct: "D"
+        question: "Who was the British Prime Minister during the time of the Stamp Act?",
+        imgSrc: "img/bostonmassacre.jpg",
+        choiceA: "Lord North",
+        choiceB: "Tony Blair",
+        choiceC: "William Pitt",
+        choiceD: "Lord Sterling",
+        correct: "C"
     },
     {   // QUESTION #3
-        question: "Starting as a 16-year old, Washington was engaged in this valuable profession:",
-        imgSrc: "img/georgefrown.jfif",
-        choiceA: "Lawyer",
-        choiceB: "Surveyor",
-        choiceC: "Ship Captain",
-        choiceD: "Gunsmith",
-        correct: "B"
-    }, { // QUESTION #4
-        question: "During his lifetime Washington visited just one location outside of the continental United States. Where did he go?",
-        imgSrc: "img/georgefrown.jfif",
-        choiceA: "London",
-        choiceB: "Paris",
-        choiceC: "Bermuda",
-        choiceD: "Barbados",
-        correct: "D"
-    }, { // QUESTION #5
-        question: "in 1754, Washington led an attack that sparked this global conflict:",
-        imgSrc: "img/georgefrown.jfif",
-        choiceA: "The French & Indian War",
-        choiceB: "The Revolutionary War",
-        choiceC: "The War of 1812",
-        choiceD: "The Napoleonic Wars",
+        question: "What year did the Boston Massacre take place?",
+        imgSrc: "img/bostonmassacre.jpg",
+        choiceA: "1770",
+        choiceB: "1776",
+        choiceC: "1777",
+        choiceD: "1812",
         correct: "A"
+    }, { // QUESTION #4
+        question: "Who was in charge of all British forces in North America during the start of the American Revolution? ",
+        imgSrc: "img/bostonmassacre.jpg",
+        choiceA: "Charles Cornwallis",
+        choiceB: "Henry Clinton",
+        choiceC: "Thomas Gage",
+        choiceD: "John Burgoyne",
+        correct: "C"
+    }, { // QUESTION #5
+        question: "In 1774, the first Continental Congress was held in this city:",
+        imgSrc: "img/bostonmassacre.jpg",
+        choiceA: "Boston",
+        choiceB: "New York",
+        choiceC: "Chicago",
+        choiceD: "Philadelphia",
+        correct: "D"
     }, { // QUESTION #6
-        question: "In 1759 George Washington married this woman:",
-        imgSrc: "img/georgefrown.jfif",
-        choiceA: "Sally Fairfax",
-        choiceB: "Mary Ball",
-        choiceC: "Martha Dandridge Custis",
-        choiceD: "Dolley Paine Todd",
+        question: "At the first Continental Congress, every colony sent delegates except for : ",
+        imgSrc: "img/bostonmassacre.jpg",
+        choiceA: "South Carolina",
+        choiceB: "Virginia",
+        choiceC: "Georgia",
+        choiceD: "New York",
         correct: "C"
     }, { // QUESTION #7
-        question: "George Washington's Mount Vernon home is built above this river:",
-        imgSrc: "img/georgefrown.jfif",
-        choiceA: "The Rappahannock",
-        choiceB: "The Ohio",
-        choiceC: "The James",
-        choiceD: "The Potomac",
+        question: "When did the 'battles' of Lexington and Concord take place? ",
+        imgSrc: "img/bostonmassacre.jpg",
+        choiceA: "December 24, 1776",
+        choiceB: "May 19, 1775",
+        choiceC: "April 19, 1776",
+        choiceD: "April 19, 1775",
         correct: "D"
     }, { // QUESTION #8
-        question: "Washington suffered from this physical ailment all his adult life:",
-        imgSrc: "img/georgefrown.jfif",
-        choiceA: "Arthritis",
-        choiceB: "Dislocated ankle",
-        choiceC: "Dental troubles",
-        choiceD: "Small Pox",
-        correct: "C"
-    }, { // QUESTION #9
-        question: "After crossing the icy Delaware River on the night of December 25, 1776, Washington and his army fought in this battle:",
-        imgSrc: "img/georgefrown.jfif",
-        choiceA: "The Battle of Trenton",
-        choiceB: "The Battle of Brandywine",
-        choiceC: "The Battle of Yorktown",
-        choiceD: "The Battle of Germantown",
+        question: "Who was the British Prime Minister by the time of Lexington and Concord?",
+        imgSrc: "img/bostonmassacre.jpg",
+        choiceA: "Lord North",
+        choiceB: "Lord Sterling",
+        choiceC: "Lord Waxford",
+        choiceD: "George III",
         correct: "A"
+    }, { // QUESTION #9
+        question: "During Paul Revere's famous ride to warn of the British coming, he was caught. Who actually made it to Concord? ",
+        imgSrc: "img/bostonmassacre.jpg",
+        choiceA: "William Dawes",
+        choiceB: "Samuel Prescott",
+        choiceC: "John Hancock",
+        choiceD: "Samuel Adams",
+        correct: "B"
     }, { // QUESTION #10
-        question: "During the cold winter of 1777-1778 Washington and the Continental Army camped here: ",
-        imgSrc: "img/georgefrown.jfif",
-        choiceA: "Morristown, NJ",
-        choiceB: "Brandywine, PA",
-        choiceC: "Germantown, PA",
-        choiceD: "Valley Forge, PA",
+        question: "Who's quote is this? 'The die is now cast. The Colonies must either submit or triumph' ",
+        imgSrc: "img/bostonmassacre.jpg",
+        choiceA: "Benjamin Franklin",
+        choiceB: "George Washington",
+        choiceC: "John Adams",
+        choiceD: "George III",
         correct: "D"
     }
 ];

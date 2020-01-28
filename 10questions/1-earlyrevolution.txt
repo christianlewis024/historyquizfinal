@@ -1,0 +1,84 @@
+let questions = [
+    {   // QUESTION #1
+        question: "Which of the following was NOT taxed in the stamp act? ",
+        imgSrc: "",
+        choiceA: "Dice and playing cards",
+        choiceB: "Gunpowder",
+        choiceC: "Legal documents ",
+        choiceD: "Newspapers",
+        correct: "B"
+    }, { // QUESTION #2
+        question: "Who was the British Prime Minister during the time of the Stamp Act?",
+        imgSrc: "",
+        choiceA: "Lord North",
+        choiceB: "Tony Blair",
+        choiceC: "William Pitt",
+        choiceD: "Lord Sterling",
+        correct: "C"
+    },
+    {   // QUESTION #3
+        question: "What year did the Boston Massacre take place?",
+        imgSrc: "",
+        choiceA: "1770",
+        choiceB: "1776",
+        choiceC: "1777",
+        choiceD: "1812",
+        correct: "A"
+    }, { // QUESTION #4
+        question: "Who was in charge of all British forces in North America during the start of the American Revolution? ",
+        imgSrc: "",
+        choiceA: "Charles Cornwallis",
+        choiceB: "Henry Clinton",
+        choiceC: "Thomas Gage",
+        choiceD: "John Burgoyne",
+        correct: "C"
+    }, { // QUESTION #5
+        question: "In 1774, the first Continental Congress was held in this city:",
+        imgSrc: "",
+        choiceA: "Boston",
+        choiceB: "New York",
+        choiceC: "Chicago",
+        choiceD: "Philadelphia",
+        correct: "D"
+    }, { // QUESTION #6
+        question: "At the first Continental Congress, every colony sent delegates except for : ",
+        imgSrc: " ",
+        choiceA: "South Carolina",
+        choiceB: "Virginia",
+        choiceC: "Georgia",
+        choiceD: "New York",
+        correct: "C"
+    }, { // QUESTION #7
+        question: "When did the "battles" of Lexington and Concord take place? ",
+        imgSrc: " ",
+        choiceA: "December 24, 1776",
+        choiceB: "May 19, 1775",
+        choiceC: "April 19, 1776",
+        choiceD: "April 19, 1775",
+        correct: "D"
+    }, { // QUESTION #8
+        question: "Who was the British Prime Minister by the time of Lexington and Concord?",
+        imgSrc: " ",
+        choiceA: "Lord North",
+        choiceB: "Lord Sterling",
+        choiceC: "Lord Waxford",
+        choiceD: "George III",
+        correct: "A"
+    }, { // QUESTION #9
+        question: "During Paul Revere's famous ride to warn of the British coming, he was caught. Who actually made it to Concord? ",
+        imgSrc: "",
+        choiceA: "William Dawes",
+        choiceB: "Samuel Prescott",
+        choiceC: "John Hancock",
+        choiceD: "Samuel Adams",
+        correct: "B"
+    }, { // QUESTION #10
+        question: "Who's quote is this? 'The die is now cast. The Colonies must either submit or triumph' ",
+        imgSrc: " ",
+        choiceA: "Benjamin Franklin",
+        choiceB: "George Washington",
+        choiceC: "John Adams",
+        choiceD: "George III",
+        correct: "D"
+    }
+];
