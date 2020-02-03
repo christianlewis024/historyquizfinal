@@ -96,7 +96,7 @@ function submitScore() {
         name = user.username;
         email = user.email;
 
-        db.collection("scores").doc().set({
+        db.collection("scores2").doc().set({
             score: score,
             name: name || email
 
@@ -233,86 +233,86 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {   // QUESTION #1
-        question: "Which of the following was NOT taxed in the stamp act? ",
-        imgSrc: "img/bostonmassacre.jpg",
-        choiceA: "Dice and playing cards",
-        choiceB: "Gunpowder",
-        choiceC: "Legal documents ",
-        choiceD: "Newspapers",
-        correct: "B"
+        question: "Which colony was John Adams born in?",
+        imgSrc: "img/johnadams.jfif",
+        choiceA: "Virgnia",
+        choiceB: "New York",
+        choiceC: "Pennsylvania",
+        choiceD: "Massachusetts",
+        correct: "D"
     }, { // QUESTION #2
-        question: "Who was the British Prime Minister during the time of the Stamp Act?",
-        imgSrc: "img/bostonmassacre.jpg",
-        choiceA: "Lord North",
-        choiceB: "Tony Blair",
-        choiceC: "William Pitt",
-        choiceD: "Lord Sterling",
-        correct: "C"
+        question: "What was the profession of John Adams before the war?",
+        imgSrc: "img/johnadams.jfif",
+        choiceA: "Rope Maker",
+        choiceB: "Lawyer",
+        choiceC: "Ship Captain",
+        choiceD: "Surveyor",
+        correct: "B"
     },
     {   // QUESTION #3
-        question: "What year did the Boston Massacre take place?",
-        imgSrc: "img/bostonmassacre.jpg",
-        choiceA: "1770",
-        choiceB: "1776",
-        choiceC: "1777",
-        choiceD: "1812",
-        correct: "A"
-    }, { // QUESTION #4
-        question: "Who was in charge of all British forces in North America during the start of the American Revolution? ",
-        imgSrc: "img/bostonmassacre.jpg",
-        choiceA: "Charles Cornwallis",
-        choiceB: "Henry Clinton",
-        choiceC: "Thomas Gage",
-        choiceD: "John Burgoyne",
+        question: "John Adams defended british soldiers charged with murder in the Boston Massacre. Who was their captain?",
+        imgSrc: "img/johnadams.jfif",
+        choiceA: "Philip Schuyler",
+        choiceB: "John Simcoe",
+        choiceC: "Thomas Preston",
+        choiceD: "William Prescott",
         correct: "C"
+    }, { // QUESTION #4
+        question: "What did Abigail Adams have their children innoculated with?",
+        imgSrc: "img/johnadams.jfif",
+        choiceA: "Big Pox",
+        choiceB: "Small Pox",
+        choiceC: "Malaria",
+        choiceD: "Yellow Fever",
+        correct: "B"
     }, { // QUESTION #5
-        question: "In 1774, the first Continental Congress was held in this city:",
-        imgSrc: "img/bostonmassacre.jpg",
-        choiceA: "Boston",
-        choiceB: "New York",
-        choiceC: "Chicago",
-        choiceD: "Philadelphia",
-        correct: "D"
+        question: "On April 1st, 1778, John Adams arrived in this country as an ambassador:",
+        imgSrc: "img/johnadams.jfif",
+        choiceA: "France",
+        choiceB: "Britain",
+        choiceC: "Spain",
+        choiceD: "Russia",
+        correct: "A"
     }, { // QUESTION #6
-        question: "At the first Continental Congress, every colony sent delegates except for : ",
-        imgSrc: "img/bostonmassacre.jpg",
-        choiceA: "South Carolina",
-        choiceB: "Virginia",
-        choiceC: "Georgia",
-        choiceD: "New York",
+        question: "On his first trip to France, John Adams brought which family member with him?",
+        imgSrc: "img/johnadams.jfif",
+        choiceA: "His son Charles",
+        choiceB: "His daughter Nabby",
+        choiceC: "His son John",
+        choiceD: "His wife Abigail",
         correct: "C"
     }, { // QUESTION #7
-        question: "When did the 'battles' of Lexington and Concord take place? ",
-        imgSrc: "img/bostonmassacre.jpg",
-        choiceA: "December 24, 1776",
-        choiceB: "May 19, 1775",
-        choiceC: "April 19, 1776",
-        choiceD: "April 19, 1775",
-        correct: "D"
-    }, { // QUESTION #8
-        question: "Who was the British Prime Minister by the time of Lexington and Concord?",
-        imgSrc: "img/bostonmassacre.jpg",
-        choiceA: "Lord North",
-        choiceB: "Lord Sterling",
-        choiceC: "Lord Waxford",
-        choiceD: "George III",
+        question: "In 1782, John Adams travelled to this country to secure a loan and recognition of American independence:",
+        imgSrc: "img/johnadams.jfif",
+        choiceA: "Netherlands",
+        choiceB: "Spain",
+        choiceC: "Russia",
+        choiceD: "Italy",
         correct: "A"
+    }, { // QUESTION #8
+        question: "In 1783, John Adams signed this treaty that would end the Revolutionary War:",
+        imgSrc: "img/johnadams.jfif",
+        choiceA: "Treaty of Versailles",
+        choiceB: "Treaty of Ghent",
+        choiceC: "Jay treaty",
+        choiceD: "Treaty of Paris",
+        correct: "D"
     }, { // QUESTION #9
-        question: "During Paul Revere's famous ride to warn of the British coming, he was caught. Who actually made it to Concord? ",
-        imgSrc: "img/bostonmassacre.jpg",
-        choiceA: "William Dawes",
-        choiceB: "Samuel Prescott",
-        choiceC: "John Hancock",
-        choiceD: "Samuel Adams",
+        question: "In 1785, John Adams became the first U.S. minister to which country",
+        imgSrc: "img/johnadams.jfif",
+        choiceA: "Mexico",
+        choiceB: "Britain",
+        choiceC: "China",
+        choiceD: "Spain",
         correct: "B"
     }, { // QUESTION #10
-        question: "Who's quote is this? 'The die is now cast. The Colonies must either submit or triumph' ",
-        imgSrc: "img/bostonmassacre.jpg",
-        choiceA: "Benjamin Franklin",
-        choiceB: "George Washington",
-        choiceC: "John Adams",
-        choiceD: "George III",
-        correct: "D"
+        question: "Which political party did John Adams belong to?",
+        imgSrc: "img/johnadams.jfif",
+        choiceA: "Federalists",
+        choiceB: "Anti Federalists",
+        choiceC: "Whigs",
+        choiceD: "Democrats",
+        correct: "A"
     }
 ];
 

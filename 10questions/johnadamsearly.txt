@@ -1,0 +1,84 @@
+let questions = [
+    {   // QUESTION #1
+        question: "Which colony was John Adams born in?",
+        imgSrc: "",
+        choiceA: "Virgnia",
+        choiceB: "New York",
+        choiceC: "Pennsylvania",
+        choiceD: "Massachusetts",
+        correct: "D"
+    }, { // QUESTION #2
+        question: "What was the profession of John Adams before the war?",
+        imgSrc: "",
+        choiceA: "Rope Maker",
+        choiceB: "Lawyer",
+        choiceC: "Ship Captain",
+        choiceD: "Surveyor",
+        correct: "B"
+    },
+    {   // QUESTION #3
+        question: "John Adams defended british soldiers charged with murder in the Boston Massacre. Who was their captain?",
+        imgSrc: "",
+        choiceA: "Philip Schuyler",
+        choiceB: "John Simcoe",
+        choiceC: "Thomas Preston",
+        choiceD: "William Prescott",
+        correct: "C"
+    }, { // QUESTION #4
+        question: "What did Abigail Adams have their children innoculated with?",
+        imgSrc: "",
+        choiceA: "Big Pox",
+        choiceB: "Small Pox",
+        choiceC: "Malaria",
+        choiceD: "Yellow Fever",
+        correct: "B"
+    }, { // QUESTION #5
+        question: "On April 1st, 1778, John Adams arrived in this country as an ambassador:",
+        imgSrc: "",
+        choiceA: "France",
+        choiceB: "Britain",
+        choiceC: "Spain",
+        choiceD: "Russia",
+        correct: "A"
+    }, { // QUESTION #6
+        question: "On his first trip to France, John Adams brought which family member with him?",
+        imgSrc: "",
+        choiceA: "His son Charles",
+        choiceB: "His daughter Nabby",
+        choiceC: "His son John",
+        choiceD: "His wife Abigail",
+        correct: "C"
+    }, { // QUESTION #7
+        question: "In 1782, John Adams travelled to this country to secure a loan and recognition of American independence:",
+        imgSrc: "",
+        choiceA: "Netherlands",
+        choiceB: "Spain",
+        choiceC: "Russia",
+        choiceD: "Italy",
+        correct: "A"
+    }, { // QUESTION #8
+        question: "In 1783, John Adams signed this treaty that would end the Revolutionary War:",
+        imgSrc: "",
+        choiceA: "Treaty of Versailles",
+        choiceB: "Treaty of Ghent",
+        choiceC: "Jay treaty",
+        choiceD: "Treaty of Paris",
+        correct: "D"
+    }, { // QUESTION #9
+        question: "In 1785, John Adams became the first U.S. minister to which country",
+        imgSrc: "",
+        choiceA: "Mexico",
+        choiceB: "Britain",
+        choiceC: "China",
+        choiceD: "Spain",
+        correct: "B"
+    }, { // QUESTION #10
+        question: "Which political party did John Adams belong to?",
+        imgSrc: "",
+        choiceA: "Federalists",
+        choiceB: "Anti Federalists",
+        choiceC: "Whigs",
+        choiceD: "Democrats",
+        correct: "A"
+    }
+];
