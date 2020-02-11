@@ -1,84 +1,84 @@
 let questions = [
     {   // QUESTION #1
-        question: " ",
-        imgSrc: " ",
-        choiceA: " ",
-        choiceB: " ",
-        choiceC: " ",
-        choiceD: " ",
-        correct: " "
+        question: "",
+        imgSrc: "",
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #2
-        question: " ",
-        imgSrc: " ",
-        choiceA: " ",
-        choiceB: " ",
-        choiceC: " ",
-        choiceD: " ",
+        question: "",
+        imgSrc: "",
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
         correct: "D"
     },
     {   // QUESTION #3
-        question: " ",
-        imgSrc: " ",
-        choiceA: " ",
-        choiceB: " ",
-        choiceC: " ",
-        choiceD: " ",
-        correct: " "
+        question: "",
+        imgSrc: "",
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #4
-        question: " ",
-        imgSrc: " ",
-        choiceA: " ",
-        choiceB: " ",
-        choiceC: " ",
-        choiceD: " ",
-        correct: " "
+        question: "",
+        imgSrc: "",
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #5
-        question: " ",
-        imgSrc: " ",
-        choiceA: " ",
-        choiceB: " ",
-        choiceC: " ",
-        choiceD: " ",
-        correct: " "
+        question: "",
+        imgSrc: "",
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #6
-        question: " ",
-        imgSrc: " ",
-        choiceA: " ",
-        choiceB: " ",
-        choiceC: " ",
-        choiceD: " ",
-        correct: " "
+        question: "",
+        imgSrc: "",
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #7
-        question: " ",
-        imgSrc: " ",
-        choiceA: " ",
-        choiceB: " ",
-        choiceC: " ",
-        choiceD: " ",
-        correct: " "
+        question: "",
+        imgSrc: "",
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #8
-        question: " ",
-        imgSrc: " ",
-        choiceA: " ",
-        choiceB: " ",
-        choiceC: " ",
-        choiceD: " ",
-        correct: " "
+        question: "",
+        imgSrc: "",
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #9
-        question: " ",
-        imgSrc: " ",
-        choiceA: " ",
-        choiceB: " ",
-        choiceC: " ",
-        choiceD: " ",
-        correct: " "
+        question: "",
+        imgSrc: "",
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #10
-        question: " ",
-        imgSrc: " ",
-        choiceA: " ",
-        choiceB: " ",
-        choiceC: " ",
-        choiceD: " ",
-        correct: " "
+        question: "",
+        imgSrc: "",
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }
 ];

@@ -1,0 +1,84 @@
+let questions = [
+    {   // QUESTION #1
+        question: "Who took command of British Forces in North America directly after Thomas Gage?",
+        imgSrc: "",
+        choiceA: "Lord North",
+        choiceB: "William Howe",
+        choiceC: "Richard Howe",
+        choiceD: "Benjamin Lincoln",
+        correct: "B"
+    }, { // QUESTION #2
+        question: "Where did most of the fighting of Bunker Hill actually take place?",
+        imgSrc: "",
+        choiceA: "Bunker Hill",
+        choiceB: "Nob Hill",
+        choiceC: "Hank's Hill",
+        choiceD: "Breed's Hill",
+        correct: "D"
+    },
+    {   // QUESTION #3
+        question: "How many attempts did it take for the British to take Breed's Hill?",
+        imgSrc: "",
+        choiceA: "1",
+        choiceB: "2",
+        choiceC: "3",
+        choiceD: "4",
+        correct: "C"
+    }, { // QUESTION #4
+        question: "Which side suffered greater casualties in the battle of Bunker Hill?",
+        imgSrc: "",
+        choiceA: "British",
+        choiceB: "American",
+        choiceC: "Even",
+        choiceD: "French",
+        correct: "A"
+    }, { // QUESTION #5
+        question: "Who's quote is this? 'I wish we could sell them another hill at the same price'",
+        imgSrc: "",
+        choiceA: "Nathanael Greene",
+        choiceB: "George Washington",
+        choiceC: "Israel Putnam",
+        choiceD: "George III",
+        correct: "A"
+    }, { // QUESTION #6
+        question: "Which British controlled fort did Benedict Arnold and Ethan Allen take?",
+        imgSrc: "",
+        choiceA: "Fort Knox",
+        choiceB: "Fort McHenry ",
+        choiceC: "Fort Sumter ",
+        choiceD: "Fort Ticonderoga",
+        correct: "D"
+    }, { // QUESTION #7
+        question: "Which lake is Fort Ticonderoga nearest?",
+        imgSrc: "",
+        choiceA: "Lake Erie",
+        choiceB: "Lake Champlain",
+        choiceC: "Lake Ticonderoga ",
+        choiceD: "Lake Mead",
+        correct: "B"
+    }, { // QUESTION #8
+        question: "In the Quebec campaign, who was the British general in charge in Canada?",
+        imgSrc: "",
+        choiceA: "Michael Bolton",
+        choiceB: "Banastre Tarleton",
+        choiceC: "Guy Carleton",
+        choiceD: "Charles Stanton",
+        correct: "C"
+    }, { // QUESTION #9
+        question: "Which American general attacked and occupied Montreal?",
+        imgSrc: "",
+        choiceA: "Richard Montgomery",
+        choiceB: "Henry Knox",
+        choiceC: "Nathanael Greene",
+        choiceD: "Friedrich Wilhelm von Steuben",
+        correct: "A"
+    }, { // QUESTION #10
+        question: "What injury did Benedict Arnold recieve in the Quebec campaign?",
+        imgSrc: "",
+        choiceA: "Amputated feet from frostbite",
+        choiceB: "Stabbed in left eye",
+        choiceC: "Hanged to death",
+        choiceD: "Shot in the leg",
+        correct: "D"
+    }
+];

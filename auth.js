@@ -96,7 +96,7 @@ function submitScore() {
         name = user.username;
         email = user.email;
 
-        db.collection("scores2").doc().set({
+        db.collection("scores3").doc().set({
             score: score,
             name: name || email
 
@@ -233,86 +233,86 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {   // QUESTION #1
-        question: "Which colony was John Adams born in?",
-        imgSrc: "img/johnadams.jfif",
-        choiceA: "Virgnia",
-        choiceB: "New York",
-        choiceC: "Pennsylvania",
-        choiceD: "Massachusetts",
-        correct: "D"
-    }, { // QUESTION #2
-        question: "What was the profession of John Adams before the war?",
-        imgSrc: "img/johnadams.jfif",
-        choiceA: "Rope Maker",
-        choiceB: "Lawyer",
-        choiceC: "Ship Captain",
-        choiceD: "Surveyor",
+        question: "Who took command of British Forces in North America directly after Thomas Gage?",
+        imgSrc: "img/bunkerhill.jpg",
+        choiceA: "Lord North",
+        choiceB: "William Howe",
+        choiceC: "Richard Howe",
+        choiceD: "Benjamin Lincoln",
         correct: "B"
+    }, { // QUESTION #2
+        question: "Where did most of the fighting of Bunker Hill actually take place?",
+        imgSrc: "img/bunkerhill.jpg",
+        choiceA: "Bunker Hill",
+        choiceB: "Nob Hill",
+        choiceC: "Hank's Hill",
+        choiceD: "Breed's Hill",
+        correct: "D"
     },
     {   // QUESTION #3
-        question: "John Adams defended british soldiers charged with murder in the Boston Massacre. Who was their captain?",
-        imgSrc: "img/johnadams.jfif",
-        choiceA: "Philip Schuyler",
-        choiceB: "John Simcoe",
-        choiceC: "Thomas Preston",
-        choiceD: "William Prescott",
+        question: "How many attempts did it take for the British to take Breed's Hill?",
+        imgSrc: "img/bunkerhill.jpg",
+        choiceA: "1",
+        choiceB: "2",
+        choiceC: "3",
+        choiceD: "4",
         correct: "C"
     }, { // QUESTION #4
-        question: "What did Abigail Adams have their children innoculated with?",
-        imgSrc: "img/johnadams.jfif",
-        choiceA: "Big Pox",
-        choiceB: "Small Pox",
-        choiceC: "Malaria",
-        choiceD: "Yellow Fever",
-        correct: "B"
+        question: "Which side suffered greater casualties in the battle of Bunker Hill?",
+        imgSrc: "img/bunkerhill.jpg",
+        choiceA: "British",
+        choiceB: "American",
+        choiceC: "Even",
+        choiceD: "French",
+        correct: "A"
     }, { // QUESTION #5
-        question: "On April 1st, 1778, John Adams arrived in this country as an ambassador:",
-        imgSrc: "img/johnadams.jfif",
-        choiceA: "France",
-        choiceB: "Britain",
-        choiceC: "Spain",
-        choiceD: "Russia",
+        question: "Who's quote is this? 'I wish we could sell them another hill at the same price'",
+        imgSrc: "img/bunkerhill.jpg",
+        choiceA: "Nathanael Greene",
+        choiceB: "George Washington",
+        choiceC: "Israel Putnam",
+        choiceD: "George III",
         correct: "A"
     }, { // QUESTION #6
-        question: "On his first trip to France, John Adams brought which family member with him?",
-        imgSrc: "img/johnadams.jfif",
-        choiceA: "His son Charles",
-        choiceB: "His daughter Nabby",
-        choiceC: "His son John",
-        choiceD: "His wife Abigail",
-        correct: "C"
-    }, { // QUESTION #7
-        question: "In 1782, John Adams travelled to this country to secure a loan and recognition of American independence:",
-        imgSrc: "img/johnadams.jfif",
-        choiceA: "Netherlands",
-        choiceB: "Spain",
-        choiceC: "Russia",
-        choiceD: "Italy",
-        correct: "A"
-    }, { // QUESTION #8
-        question: "In 1783, John Adams signed this treaty that would end the Revolutionary War:",
-        imgSrc: "img/johnadams.jfif",
-        choiceA: "Treaty of Versailles",
-        choiceB: "Treaty of Ghent",
-        choiceC: "Jay treaty",
-        choiceD: "Treaty of Paris",
+        question: "Which British controlled fort did Benedict Arnold and Ethan Allen take?",
+        imgSrc: "img/bunkerhill.jpg",
+        choiceA: "Fort Knox",
+        choiceB: "Fort McHenry ",
+        choiceC: "Fort Sumter ",
+        choiceD: "Fort Ticonderoga",
         correct: "D"
-    }, { // QUESTION #9
-        question: "In 1785, John Adams became the first U.S. minister to which country",
-        imgSrc: "img/johnadams.jfif",
-        choiceA: "Mexico",
-        choiceB: "Britain",
-        choiceC: "China",
-        choiceD: "Spain",
+    }, { // QUESTION #7
+        question: "Which lake is Fort Ticonderoga nearest?",
+        imgSrc: "img/bunkerhill.jpg",
+        choiceA: "Lake Erie",
+        choiceB: "Lake Champlain",
+        choiceC: "Lake Ticonderoga ",
+        choiceD: "Lake Mead",
         correct: "B"
-    }, { // QUESTION #10
-        question: "Which political party did John Adams belong to?",
-        imgSrc: "img/johnadams.jfif",
-        choiceA: "Federalists",
-        choiceB: "Anti Federalists",
-        choiceC: "Whigs",
-        choiceD: "Democrats",
+    }, { // QUESTION #8
+        question: "In the Quebec campaign, who was the British general in charge in Canada?",
+        imgSrc: "img/bunkerhill.jpg",
+        choiceA: "Michael Bolton",
+        choiceB: "Banastre Tarleton",
+        choiceC: "Guy Carleton",
+        choiceD: "Charles Stanton",
+        correct: "C"
+    }, { // QUESTION #9
+        question: "Which American general attacked and occupied Montreal?",
+        imgSrc: "img/bunkerhill.jpg",
+        choiceA: "Richard Montgomery",
+        choiceB: "Henry Knox",
+        choiceC: "Nathanael Greene",
+        choiceD: "Friedrich Wilhelm von Steuben",
         correct: "A"
+    }, { // QUESTION #10
+        question: "What injury did Benedict Arnold recieve in the Quebec campaign?",
+        imgSrc: "img/bunkerhill.jpg",
+        choiceA: "Amputated feet from frostbite",
+        choiceB: "Stabbed in left eye",
+        choiceC: "Hanged to death",
+        choiceD: "Shot in the leg",
+        correct: "D"
     }
 ];
 
