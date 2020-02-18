@@ -1,21 +1,23 @@
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <link rel="stylesheet" href="study.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="study.css" />
+    <link rel="stylesheet" href="index.css" />
 
     <title>Study</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- NAVBAR -->
     <!-- <nav class="main-nav">
         <div class="nav-wrapper container">
@@ -42,102 +44,117 @@
     </nav> -->
 
     <nav class="main-nav">
-        <div class="wrapper">
-
-
-            <ul id="nav-mobile" class="nav navbar-nav">
-                <section id="blocks">
-                    <div class="box one">
-                        <li class="logged-in" style="display: none;"><a href="index.html" class="home">Home</a></li>
-
-                    </div>
-                    <div class="box two">
-                        <li class="logged-in" style="display: none;">
-                            <a href="#" class="white-text" id="logout">Logout</a>
-                        </li>
-                    </div>
-                    <!-- <li class="logged-in">
+      <div class="wrapper">
+        <ul id="nav-mobile" class="nav navbar-nav">
+          <section id="blocks">
+            <div class="box one">
+              <li class="logged-in" style="display: none;">
+                <a href="index.html" class="home">Home</a>
+              </li>
+            </div>
+            <div class="box two">
+              <li class="logged-in" style="display: none;">
+                <a href="#" class="white-text" id="logout">Logout</a>
+              </li>
+            </div>
+            <!-- <li class="logged-in">
                     <a href="#" class="grey-text modal-trigger" data-target="modal-create">Create Guide</a>
                 </li> -->
-                    <div class="box three">
-                        <li class="logged-out" style="display: none;">
-                            <a href="#" class="white-text modal-trigger" data-target="modal-login">Login</a>
-                        </li>
-                    </div>
-                    <div class="box four">
-                        <li class="logged-out" style="display: none;">
-                            <a href="#" class="white-text modal-trigger" data-target="modal-signup">Sign up</a>
-                        </li>
-                    </div>
-                    <div class="box five">
-                        <li class="logged-in" style="display: none;">
-                            <a href="#" class="white-text modal-trigger" data-target="modal-account">Account</a>
-                        </li>
-                    </div>
-                    <div class="box six">
-                        <li class="logged-in" style="display: none;"><a href="Play.html" class="play">Play</a></li>
-                    </div>
-                    <div class="box seven">
-                        <li class="logged-in" style="display: none;"><a href="study.html" class="study">Study</a></li>
-                    </div>
-
-                </section>
-            </ul>
-        </div>
+            <div class="box three">
+              <li class="logged-out" style="display: none;">
+                <a
+                  href="#"
+                  class="white-text modal-trigger"
+                  data-target="modal-login"
+                  >Login</a
+                >
+              </li>
+            </div>
+            <div class="box four">
+              <li class="logged-out" style="display: none;">
+                <a
+                  href="#"
+                  class="white-text modal-trigger"
+                  data-target="modal-signup"
+                  >Sign up</a
+                >
+              </li>
+            </div>
+            <div class="box five">
+              <li class="logged-in" style="display: none;">
+                <a
+                  href="#"
+                  class="white-text modal-trigger"
+                  data-target="modal-account"
+                  >Account</a
+                >
+              </li>
+            </div>
+            <div class="box six">
+              <li class="logged-in" style="display: none;">
+                <a href="Play.html" class="play">Play</a>
+              </li>
+            </div>
+            <div class="box seven">
+              <li class="logged-in" style="display: none;">
+                <a href="study.html" class="study">Study</a>
+              </li>
+            </div>
+          </section>
+        </ul>
+      </div>
     </nav>
-
-
-
-
-
 
     <!-- SIGN UP MODAL -->
     <div id="modal-signup" class="modal">
-        <div class="modal-content">
-            <h4>Sign up</h4><br />
-            <form id="signup-form">
-                <div class="input-field">
-                    <input type="email" id="signup-email" required />
-                    <label for="signup-email">Email address</label>
-                </div>
-                <div class="input-field">
-                    <input type="password" id="signup-password" required />
-                    <label for="signup-password">Choose password</label>
-                </div>
-                <div class="input-field">
-                    <input type="text" id="signup-bio" required />
-                    <label for="signup-bio">One Line Bio</label>
-                </div>
-                <button class="btn yellow darken-2 z-depth-0">Sign up</button>
-                <p class="error pink-text center-align"></p>
-            </form>
-        </div>
+      <div class="modal-content">
+        <h4>Sign up</h4>
+        <br />
+        <form id="signup-form">
+          <div class="input-field">
+            <input type="email" id="signup-email" required />
+            <label for="signup-email">Email address</label>
+          </div>
+          <div class="input-field">
+            <input type="password" id="signup-password" required />
+            <label for="signup-password">Choose password</label>
+          </div>
+          <div class="input-field">
+            <input type="text" id="signup-bio" required />
+            <label for="signup-bio">One Line Bio</label>
+          </div>
+          <button class="btn yellow darken-2 z-depth-0">Sign up</button>
+          <p class="error pink-text center-align"></p>
+        </form>
+      </div>
     </div>
 
     <!-- LOGIN MODAL -->
     <div id="modal-login" class="modal">
-        <div class="modal-content">
-            <h4>Login</h4><br />
-            <form id="login-form">
-                <div class="input-field">
-                    <input type="email" id="login-email" required />
-                    <label for="login-email">Email address</label>
-                </div>
-                <div class="input-field">
-                    <input type="password" id="login-password" required />
-                    <label for="login-password">Your password</label>
-                </div>
-                <button class="btn yellow darken-2 z-depth-0">Login</button>
-            </form>
-        </div>
+      <div class="modal-content">
+        <h4>Login</h4>
+        <br />
+        <form id="login-form">
+          <div class="input-field">
+            <input type="email" id="login-email" required />
+            <label for="login-email">Email address</label>
+          </div>
+          <div class="input-field">
+            <input type="password" id="login-password" required />
+            <label for="login-password">Your password</label>
+          </div>
+          <button class="btn yellow darken-2 z-depth-0">Login</button>
+        </form>
+      </div>
     </div>
 
     <!-- ACCOUNT MODAL -->
     <div id="modal-account" class="modal">
-        <div class="modal-content center-align">
-            <h4>Account details</h4><br />
-            <div class="account-details"></div>
-        </div>
+      <div class="modal-content center-align">
+        <h4>Account details</h4>
+        <br />
+        <div class="account-details"></div>
+      </div>
     </div>
 
     <!-- CREATE GUIDE MODAL
@@ -166,7 +183,7 @@
     </div> -->
 
     <header>
-        <h2>The Weekly American History Quiz</h2>
+      <h2>The Weekly American History Quiz</h2>
     </header>
     <!-- <nav class="main-nav">
 
@@ -181,94 +198,101 @@
         </ul>
     </nav>
     --->
-    <br><br><br><br><br>
+    <br /><br /><br /><br /><br />
 
     <div id="studyAndLearn">
-        <h1>
-            <p>Take some time to read, listen, or watch and get a jump on the competition! <br>
-                Study and Learn: Prepare for next week's Quiz!
-            </p>
-
-        </h1>
-        <p>This week's topic: The American Revolution: Bunker Hill and Quebec
-            <br>
-            Check here once a week for books, articles, links to podcasts or youtube videos. Most of the questions from
-            the quiz will be pulled directly from these sources!
+      <h1>
+        <p>
+          Take some time to read, listen, or watch and get a jump on the
+          competition! <br />
+          Study and Learn: Prepare for next week's Quiz!
         </p>
-
+      </h1>
+      <p>
+        This week's topic: Thomas Jefferson's life up to the presidency
+        <br />
+        Check here once a week for books, articles, links to podcasts or youtube
+        videos. Most of the questions from the quiz will be pulled directly from
+        these sources!
+      </p>
     </div>
 
     <div id="books">
-        <h2>Books:</h2>
-        <br><br><br><br><br>
+      <h2>
+        Books:
+        <br />
+        <br />American Sphinx: The Character of Thomas Jefferson by Joseph Ellis
+        <br /><br />
+        Thomas Jefferson: The Art of Power by Jon Meacham
+      </h2>
+      <br /><br /><br /><br /><br />
     </div>
 
     <div id="youTube">
-        <h2>Video links: </h2>
-        <br><br><br><br><br>
+      <h2>Video links:</h2>
+      <br /><br /><br /><br /><br />
     </div>
 
     <div id="podcasts">
-        <h2>Podcast episodes from various sources: <br>
-            History Unplugged episodes 4-8
-        </h2>
-        <br><br><br><br><br>
+      <h2>Podcast episodes from various sources: <br /></h2>
+      <br /><br /><br /><br /><br />
     </div>
 
     <div id="blogs">
-        <h2>Blogs and articles: </h2>
-        <br><br><br><br><br>
+      <h2>Blogs and articles:</h2>
+      <br /><br /><br /><br /><br />
     </div>
 
     <div id="other">
-        <h2>Other good sources: </h2>
-        <br><br><br><br><br>
+      <h2>Other good sources:</h2>
+      <br /><br /><br /><br /><br />
     </div>
 
     <div id="studyAndLearn">
-        <h1>
-            Next week's topic:
-
-
-        </h1>
-        <p> Thomas Jefferson's life up to the presidency
-            <br>
-
-        </p>
-
+      <h1>
+        Next week's topic:
+      </h1>
+      <p>
+        Declaration of Independence & The American Revolution: New York campaign
+        <br />
+      </p>
     </div>
 
     <div id="books">
-        <h2>Books: <br>American Sphinx: The Character of Thomas Jefferson by Joseph Ellis
-            <br><br>
-            Thomas Jefferson: The Art of Power by Jon Meacham
-        </h2>
-        <br><br><br><br><br>
+      <h2>Books: <br /></h2>
+      <br /><br /><br /><br /><br />
     </div>
 
     <div id="youTube">
-        <h2>Video links: </h2>
-        <br><br><br><br><br>
+      <h2>Video links:</h2>
+      <br /><br /><br /><br /><br />
     </div>
 
     <div id="podcasts">
-        <h2>Podcast episodes from various sources: </h2>
-        <h3><br> </h3>
+      <h2>
+        Podcast episodes from various sources: <br />
+        <br />
+        History Unplugged, Key Battles of the American Revolution part 9, 10,
+        and 11.
+      </h2>
+      <h3><br /></h3>
 
-        <br><br><br><br><br>
+      <br /><br /><br /><br /><br />
     </div>
 
     <div id="blogs">
-        <h2>Blogs and articles: </h2>
-        <br><br><br><br><br>
+      <h2>Blogs and articles:</h2>
+      <br /><br /><br /><br /><br />
     </div>
 
     <div id="other">
-        <h2>Other good sources: </h2>
-        <br><br><br><br><br>
+      <h2>
+        Other good sources:
+        <br /><br />
+        The Declaration of Independence.
+      </h2>
+      <br /><br /><br /><br /><br />
     </div>
-
-
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
@@ -279,34 +303,32 @@ https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
 
     <script>
-        // Your web app's Firebase configuration
-        var firebaseConfig = {
-            apiKey: "AIzaSyC0iu9247KzTL4zqA5j_QaszpItQ2WL6HU",
-            authDomain: "historyquiz-b4b71.firebaseapp.com",
-            databaseURL: "https://historyquiz-b4b71.firebaseio.com",
-            projectId: "historyquiz-b4b71",
-            storageBucket: "historyquiz-b4b71.appspot.com",
-            messagingSenderId: "328220291227",
-            appId: "1:328220291227:web:ac1312b6c86f7aa84d963e",
-            measurementId: "G-KWPVYZHB8P"
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-        // firebase.analytics();
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyC0iu9247KzTL4zqA5j_QaszpItQ2WL6HU",
+        authDomain: "historyquiz-b4b71.firebaseapp.com",
+        databaseURL: "https://historyquiz-b4b71.firebaseio.com",
+        projectId: "historyquiz-b4b71",
+        storageBucket: "historyquiz-b4b71.appspot.com",
+        messagingSenderId: "328220291227",
+        appId: "1:328220291227:web:ac1312b6c86f7aa84d963e",
+        measurementId: "G-KWPVYZHB8P"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      // firebase.analytics();
 
-        // make auth and firestore references
-        const auth = firebase.auth();
-        const db = firebase.firestore();
+      // make auth and firestore references
+      const auth = firebase.auth();
+      const db = firebase.firestore();
 
- // update firestore settings
- // db.settings({ timestampsInSnapshots: true});
+      // update firestore settings
+      // db.settings({ timestampsInSnapshots: true});
     </script>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="auth.js"></script>
     <script src="index.js"></script>
-
-</body>
-
+  </body>
 </html>
