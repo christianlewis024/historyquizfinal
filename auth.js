@@ -67,28 +67,6 @@ loginForm.addEventListener("submit", e => {
   });
 });
 
-// const auth = require("registry-auth-token");
-
-// Testing below //
-// Testing below //
-// Testing below //
-
-// var user = firebase.auth().currentUser;
-// var name, email;
-
-// if (user != null) {
-
-//     name = user.username;
-//     email = user.email;
-//     function submitScore() {
-//         db.collection("scores").doc().set({
-//             score: score,
-//             name: name || email
-
-//         })
-//     }
-// }
-
 function submitScore() {
   var user = firebase.auth().currentUser;
   var name, email;
@@ -121,112 +99,6 @@ const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
 const scoreDiv = document.getElementById("scoreContainer");
 
-// // from discord //
-// // Authentication / user information is automatically added to the request.
-// const uid = context.auth.uid;
-// const name = context.auth.token.name || null;
-// const picture = context.auth.token.picture || null;
-// const email = context.auth.token.email || null;
-
-// // from discord //
-
-// const currentUser = document.getElementsByName("username");
-// const getUsername = document.querySelector('')
-// const user = auth.currentUser;
-// const name, email, photoUrl, uid, emailVerified;
-
-// if (user) {
-//     name = user.username;
-//     email = user.email;
-//     photoUrl = user.photoURL;
-//     emailVerified = user.emailVerified;
-//     uid = user.uid;  // The user's ID, unique to the Firebase project. Do NOT use
-//     // this value to authenticate with your backend server, if
-//     // you have one. Use User.getToken() instead.
-// }
-
-// const getUsername = user.email
-
-// DocumentReference.get().then(function (doc) {
-//     if (doc && doc.exists) {
-//         const myData = doc.data();
-
-//     }
-// })
-
-// function submitScore() {
-//     db.collection("scores").doc().set({
-//         score: score,
-//         name: myData
-
-//     })
-// }
-
-// const getUsername = document.querySelector('#account-details.username')
-// const accountDetails = document.querySelector('#account-details');
-// const signupForm = document.querySelector('#signup-form')
-// const getUsername = document.querySelector('#signup-form');
-// getUsername{
-
-// }
-// // const getUsername = firebase.auth().currentUser;
-// var user = firebase.auth().currentUser;
-// var name, email, photoUrl, uid, emailVerified;
-
-// if (user != null) {
-//     name = user.displayName;
-//     email = user.email;
-//     photoUrl = user.photoURL;
-//     emailVerified = user.emailVerified;
-//     uid = user.uid;  // The user's ID, unique to the Firebase project. Do NOT use
-//     // this value to authenticate with your backend server, if
-//     // you have one. Use User.getToken() instead.
-// }
-
-// if (getUsername == true) {
-//     name = user.username;
-//     email = user.email;
-// }
-// const getUsername = (user) => {
-//     if (user) {
-//         db.collection('users').doc(user.uid).get().then(doc => {
-//             accountDetails.innerHTML = html;
-//         })
-//     }
-// }
-
-// var user = firebase().currentUser;
-// var name, email, photoUrl, uid, emailVerified;
-
-// if (user) {
-//     name = user.username;
-//     email = user.email;
-//     photoUrl = user.photoURL;
-//     emailVerified = user.emailVerified;
-//     uid = user.uid;  // The user's ID, unique to the Firebase project. Do NOT use
-//     // this value to authenticate with your backend server, if
-//     // you have one. Use User.getToken() instead.
-// }
-
-// const signupForm = document.querySelector('#signup-form');
-// const getUsername = db.collection('users').doc('currentUserID').get().then((user) => {
-//     if (user.exists) {
-//         console.log(user.data())
-//     }
-// });
-// const getUsername = db.collection('uid');
-
-// const getUsername = db.collection('users').doc(users.uid).get().then();
-// db.collection('users').get(user.uid).get()
-// });
-// const getUsername = db.collection('users').doc(user.uid).get().then(doc => {
-//     const html = `
-// <div>Logged in as ${user.email}</div>
-// <div>${doc.data().bio}</div>
-// <div class="pink-text">${user.admin ? 'Admin' : ''}</div>
-// `;
-//     accountDetails.innerHTML = html;
-// });
 // create our questions
 let questions = [
   {
@@ -294,7 +166,7 @@ let questions = [
   {
     // QUESTION #7
     question:
-      "In 1784, Jefferson becomes the forgein minister to which country?",
+      "In 1784, Jefferson becomes the foreign minister to which country?",
     imgSrc: "img/thomasjefferson.jpg",
     choiceA: "France",
     choiceB: "England",
@@ -433,16 +305,6 @@ function answerIsWrong() {
   document.getElementById(runningQuestion).style.backgroundColor = "#f00";
 }
 
-// submit the score
-
-// function submitScore() {
-//     db.collection("scores").doc().set({
-//         score: score,
-//         name: accountDetails['username'].value
-
-//     })
-// }
-
 // score render
 function scoreRender() {
   scoreDiv.style.display = "block";
@@ -465,25 +327,3 @@ function scoreRender() {
   scoreDiv.innerHTML = "<img src=" + img + ">";
   scoreDiv.innerHTML += "<p>" + scorePerCent + "%</p>";
 }
-
-// function saveScore() {
-//     // // Get name from input box
-//     // let name = document.getElementById('name').value;
-
-//     // Make sure name has a value, if not send alert.
-//     if (score >= 0) {
-//         // Add a new document in collection "scores"
-//         db.collection("scores").doc().set({
-
-//             score: score
-//         })
-
-// ^ needs to close above
-
-// const createForm = document.querySelector('#create-form');
-// createForm.addEventListener('submit', (e) => {
-//     e.preventDefault();
-//     db.collection('guides').add({
-//         title: createForm.title.value,
-//         content: createForm.content.value
-//     })
