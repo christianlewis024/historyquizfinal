@@ -97,7 +97,7 @@ function submitScore() {
     name = user.username;
     email = user.email;
 
-    db.collection("scores3")
+    db.collection("scores4")
       .doc()
       .set({
         score: score,
