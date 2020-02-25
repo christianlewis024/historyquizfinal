@@ -104,7 +104,7 @@ let questions = [
   {
     // QUESTION #1
     question:
-      "How many people were on the commitee to write the Declaration of Independence?",
+      "How many people were on the committee to write the Declaration of Independence?",
     imgSrc: "img/declarationcongress.jpg",
     choiceA: "1",
     choiceB: "2",
