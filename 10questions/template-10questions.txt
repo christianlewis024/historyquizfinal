@@ -1,84 +1,84 @@
 let questions = [
     {   // QUESTION #1
-        question: "Who was Thomas Jefferson's childhood best friend?",
+        question: "",
         imgSrc: "",
-        choiceA: "George Washington",
-        choiceB: "John Adams",
-        choiceC: "The Marquis de Lafayette",
-        choiceD: "Dabney Carr",
-        correct: "D"
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #2
         question: "What was Thomas Jefferson's wife's name?",
         imgSrc: "",
-        choiceA: "Louisa",
-        choiceB: "Martha",
-        choiceC: "Dolly",
-        choiceD: "Elizabeth",
-        correct: "B"
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     },
     {   // QUESTION #3
-        question: "Which college did Jefferson graduate from?",
+        question: "",
         imgSrc: "",
-        choiceA: "Yale",
-        choiceB: "Harvard",
-        choiceC: "The College of William and Mary",
-        choiceD: "St. John's College",
-        correct: "C"
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #4
-        question: "In Virginia, June 1774, To show solidarity with other colonies and to protest the Boston Port Act, a day of ____ was declared ",
+        question: "",
         imgSrc: "",
-        choiceA: "Fasting",
-        choiceB: "Rioting",
-        choiceC: "Silence",
-        choiceD: "War preperation",
-        correct: "A"
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #5
-        question: "In August 1774, Jefferson published  ___",
+        question: "",
         imgSrc: "",
-        choiceA: "The Declaration of Independence",
-        choiceB: "A Summary View of the Rights of British America",
-        choiceC: "Constitution of the United States",
-        choiceD: "Common Sense",
-        correct: "B"
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #6
-        question: "What year did Jefferson first get elected to Governor of Virginia?",
+        question: "",
         imgSrc: "",
-        choiceA: "1765",
-        choiceB: "1770",
-        choiceC: "1776",
-        choiceD: "1779",
-        correct: "D"
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #7
-        question: "In 1784, Jefferson becomes the forgein minister to which country?",
+        question: "",
         imgSrc: "",
-        choiceA: "France",
-        choiceB: "England",
-        choiceC: "Russia",
-        choiceD: "Spain",
-        correct: "A"
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #8
-        question: "What was Jefferson's role in Washington's presidency?",
+        question: "",
         imgSrc: "",
-        choiceA: "Vice President",
-        choiceB: "Secretary of War",
-        choiceC: "Treasury Dept.",
-        choiceD: "Secretary of State",
-        correct: "D"
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #9
-        question: "What was Jefferson's role in the Adams presidency?",
+        question: "",
         imgSrc: "",
-        choiceA: "Vice President",
-        choiceB: "Secretary of War",
-        choiceC: "Treasury Dept",
-        choiceD: "Secretary of State",
-        correct: "A"
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }, { // QUESTION #10
-        question: "What was the name of Thomas Jefferson's Home?",
+        question: "",
         imgSrc: "",
-        choiceA: "Montecito",
-        choiceB: "Mount Vernon",
-        choiceC: "Monticello",
-        choiceD: "Montpelier",
-        correct: "C"
+        choiceA: "",
+        choiceB: "",
+        choiceC: "",
+        choiceD: "",
+        correct: ""
     }
 ];

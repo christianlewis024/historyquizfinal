@@ -75,7 +75,7 @@ function submitScore() {
     name = user.username;
     email = user.email;
 
-    db.collection("scores4")
+    db.collection("scores5")
       .doc()
       .set({
         score: score,
@@ -103,109 +103,110 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
   {
     // QUESTION #1
-    question: "Who was Thomas Jefferson's childhood best friend?",
-    imgSrc: "img/thomasjefferson.jpg",
-    choiceA: "George Washington",
-    choiceB: "John Adams",
-    choiceC: "The Marquis de Lafayette",
-    choiceD: "Dabney Carr",
+    question:
+      "How many people were on the commitee to write the Declaration of Independence?",
+    imgSrc: "img/declarationcongress.jpg",
+    choiceA: "1",
+    choiceB: "2",
+    choiceC: "3",
+    choiceD: "5",
     correct: "D"
   },
   {
     // QUESTION #2
-    question: "What was Thomas Jefferson's wife's name?",
-    imgSrc: "img/thomasjefferson.jpg",
-    choiceA: "Louisa",
-    choiceB: "Martha",
-    choiceC: "Dolly",
-    choiceD: "Elizabeth",
+    question:
+      "When did congress officialy vote to declare independence from Britain?",
+    imgSrc: "img/declarationcongress.jpg",
+    choiceA: "July 1st, 1776",
+    choiceB: "July 2nd, 1776",
+    choiceC: "July 3rd, 1776",
+    choiceD: "July 4th, 1776",
     correct: "B"
   },
   {
     // QUESTION #3
-    question: "Which college did Jefferson graduate from?",
-    imgSrc: "img/thomasjefferson.jpg",
-    choiceA: "Yale",
-    choiceB: "Harvard",
-    choiceC: "The College of William and Mary",
-    choiceD: "St. John's College",
+    question: "What are the first words of the Delcaration of Independence?",
+    imgSrc: "img/declarationcongress.jpg",
+    choiceA: "We hold these truths to be self-evident",
+    choiceB: "We the People of the United States...",
+    choiceC: "When in the Course of human events...",
+    choiceD: "In the early ages of the world...",
     correct: "C"
   },
   {
     // QUESTION #4
     question:
-      "In Virginia, June 1774, To show solidarity with other colonies and to protest the Boston Port Act, a day of ____ was declared ",
-    imgSrc: "img/thomasjefferson.jpg",
-    choiceA: "Fasting",
-    choiceB: "Rioting",
-    choiceC: "Silence",
-    choiceD: "War preperation",
+      "In the New York campaign, Americans built 2 forts named Fort Washington and ____",
+    imgSrc: "img/declarationcongress.jpg",
+    choiceA: "Fort Lee",
+    choiceB: "Fort Arnold",
+    choiceC: "Fort Necessity",
+    choiceD: "Fort Moultrie",
     correct: "A"
   },
   {
     // QUESTION #5
-    question: "In August 1774, Jefferson published  ___",
-    imgSrc: "img/thomasjefferson.jpg",
-    choiceA: "The Declaration of Independence",
-    choiceB: "A Summary View of the Rights of British America",
-    choiceC: "Constitution of the United States",
-    choiceD: "Common Sense",
+    question: "South of Brooklyn, the Americans forgot to cover a pass named:",
+    imgSrc: "img/declarationcongress.jpg",
+    choiceA: "Cuban Pass",
+    choiceB: "Jamaica Pass",
+    choiceC: "Season Pass",
+    choiceD: "Trenton Pass",
     correct: "B"
   },
   {
     // QUESTION #6
-    question:
-      "What year did Jefferson first get elected to Governor of Virginia?",
-    imgSrc: "img/thomasjefferson.jpg",
-    choiceA: "1765",
-    choiceB: "1770",
-    choiceC: "1776",
-    choiceD: "1779",
+    question: "South of Brooklyn, an strong retreat was organized by ____",
+    imgSrc: "img/declarationcongress.jpg",
+    choiceA: "Benedict Arnold",
+    choiceB: "Lafayette",
+    choiceC: "James Grant",
+    choiceD: "William Alexander",
     correct: "D"
   },
   {
     // QUESTION #7
-    question:
-      "In 1784, Jefferson becomes the foreign minister to which country?",
-    imgSrc: "img/thomasjefferson.jpg",
-    choiceA: "France",
-    choiceB: "England",
-    choiceC: "Russia",
-    choiceD: "Spain",
-    correct: "A"
+    question: "What title did William Alexander go by?",
+    imgSrc: "img/declarationcongress.jpg",
+    choiceA: "Baron von Steuben",
+    choiceB: "Prince William",
+    choiceC: "Lord Stirling",
+    choiceD: "Marquis de Lafayette",
+    correct: "C"
   },
   {
     // QUESTION #8
-    question: "What was Jefferson's role in Washington's presidency?",
-    imgSrc: "img/thomasjefferson.jpg",
-    choiceA: "Vice President",
-    choiceB: "Secretary of War",
-    choiceC: "Treasury Dept.",
-    choiceD: "Secretary of State",
-    correct: "D"
+    question: "Who won the battle of Long Island?",
+    imgSrc: "img/declarationcongress.jpg",
+    choiceA: "Washington's army",
+    choiceB: "Howe's army",
+    choiceC: "Tie",
+    choiceD: "Both sides fled",
+    correct: "B"
   },
   {
     // QUESTION #9
-    question: "What was Jefferson's role in the Adams presidency?",
-    imgSrc: "img/thomasjefferson.jpg",
-    choiceA: "Vice President",
-    choiceB: "Secretary of War",
-    choiceC: "Treasury Dept",
-    choiceD: "Secretary of State",
+    question:
+      "In the New York campaign, which foreign group of mercenaries were fighting under the British?",
+    imgSrc: "img/declarationcongress.jpg",
+    choiceA: "Hessians",
+    choiceB: "Russians",
+    choiceC: "Italians",
+    choiceD: "Dutch",
     correct: "A"
   },
   {
     // QUESTION #10
-    question: "What was the name of Thomas Jefferson's Home?",
-    imgSrc: "img/thomasjefferson.jpg",
-    choiceA: "Montecito",
-    choiceB: "Mount Vernon",
-    choiceC: "Monticello",
-    choiceD: "Montpelier",
+    question:
+      "Bonus Question! What type of wood was Fort Moultrie in Charleston made out of?",
+    imgSrc: "img/declarationcongress.jpg",
+    choiceA: "Cork oak",
+    choiceB: "Eucalyptus wood",
+    choiceC: "Palmetto wood",
+    choiceD: "Ironwood",
     correct: "C"
   }
 ];
-
 // create some variables
 
 const lastQuestion = questions.length - 1;
