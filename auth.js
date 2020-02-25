@@ -125,7 +125,7 @@ let questions = [
   },
   {
     // QUESTION #3
-    question: "What are the first words of the Delcaration of Independence?",
+    question: "What are the first words of the Declaration of Independence?",
     imgSrc: "img/declarationcongress.jpg",
     choiceA: "We hold these truths to be self-evident",
     choiceB: "We the People of the United States...",
