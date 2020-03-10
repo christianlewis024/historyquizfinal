@@ -75,7 +75,7 @@ function submitScore() {
     name = user.username;
     email = user.email;
 
-    db.collection("scores5")
+    db.collection("scores6")
       .doc()
       .set({
         score: score,
@@ -103,107 +103,104 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
   {
     // QUESTION #1
-    question:
-      "How many people were on the committee to write the Declaration of Independence?",
-    imgSrc: "img/declarationcongress.jpg",
-    choiceA: "1",
-    choiceB: "2",
-    choiceC: "3",
-    choiceD: "5",
+    question: "Where was Alexander Hamilton born?",
+    imgSrc: "img/hamilton.jpg",
+    choiceA: "Scottland",
+    choiceB: "Wales",
+    choiceC: "New York",
+    choiceD: "The Caribbean",
     correct: "D"
   },
   {
     // QUESTION #2
     question:
-      "When did congress officialy vote to declare independence from Britain?",
-    imgSrc: "img/declarationcongress.jpg",
-    choiceA: "July 1st, 1776",
-    choiceB: "July 2nd, 1776",
-    choiceC: "July 3rd, 1776",
-    choiceD: "July 4th, 1776",
-    correct: "B"
+      "When living in The Caribbean, young Hamilton notably wrote about what event?",
+    imgSrc: "img/hamilton.jpg",
+    choiceA: "A fire that killed his family",
+    choiceB: "A smallpox outbreak",
+    choiceC: "A hurricane",
+    choiceD: "A rebellion",
+    correct: "C"
   },
   {
     // QUESTION #3
-    question: "What are the first words of the Declaration of Independence?",
-    imgSrc: "img/declarationcongress.jpg",
-    choiceA: "We hold these truths to be self-evident",
-    choiceB: "We the People of the United States...",
-    choiceC: "When in the Course of human events...",
-    choiceD: "In the early ages of the world...",
-    correct: "C"
+    question: "What college did Alexander Hamilton actually attend?",
+    imgSrc: "img/hamilton.jpg",
+    choiceA: "Collge of New Jersey",
+    choiceB: "Kings College",
+    choiceC: "College of William & Mary",
+    choiceD: "Never went to college",
+    correct: "B"
   },
   {
     // QUESTION #4
-    question:
-      "In the New York campaign, Americans built 2 forts named Fort Washington and ____",
-    imgSrc: "img/declarationcongress.jpg",
-    choiceA: "Fort Lee",
-    choiceB: "Fort Arnold",
-    choiceC: "Fort Necessity",
-    choiceD: "Fort Moultrie",
-    correct: "A"
+    question: "What was Hamilton's role in Washington's cabinet?",
+    imgSrc: "img/hamilton.jpg",
+    choiceA: "Secretary of War",
+    choiceB: "Secretary of the Treasury",
+    choiceC: "Vice President",
+    choiceD: "Secretary of State",
+    correct: "B"
   },
   {
     // QUESTION #5
-    question: "South of Brooklyn, the Americans forgot to cover a pass named:",
-    imgSrc: "img/declarationcongress.jpg",
-    choiceA: "Cuban Pass",
-    choiceB: "Jamaica Pass",
-    choiceC: "Season Pass",
-    choiceD: "Trenton Pass",
-    correct: "B"
-  },
-  {
-    // QUESTION #6
-    question: "South of Brooklyn, an strong retreat was organized by ____",
-    imgSrc: "img/declarationcongress.jpg",
-    choiceA: "Benedict Arnold",
-    choiceB: "Lafayette",
-    choiceC: "James Grant",
-    choiceD: "William Alexander",
+    question: "Hamilton, Madison, and John Jay wrote 85 essays called:",
+    imgSrc: "img/hamilton.jpg",
+    choiceA: "US Constitution",
+    choiceB: "Declaration of Independence",
+    choiceC: "Bill of Rights",
+    choiceD: "Federalist Papers",
     correct: "D"
   },
   {
-    // QUESTION #7
-    question: "What title did William Alexander go by?",
-    imgSrc: "img/declarationcongress.jpg",
-    choiceA: "Baron von Steuben",
-    choiceB: "Prince William",
-    choiceC: "Lord Stirling",
-    choiceD: "Marquis de Lafayette",
-    correct: "C"
-  },
-  {
-    // QUESTION #8
-    question: "Who won the battle of Long Island?",
-    imgSrc: "img/declarationcongress.jpg",
-    choiceA: "Washington's army",
-    choiceB: "Howe's army",
-    choiceC: "Tie",
-    choiceD: "Both sides fled",
-    correct: "B"
-  },
-  {
-    // QUESTION #9
-    question:
-      "In the New York campaign, which foreign group of mercenaries were fighting under the British?",
-    imgSrc: "img/declarationcongress.jpg",
-    choiceA: "Hessians",
-    choiceB: "Russians",
-    choiceC: "Italians",
-    choiceD: "Dutch",
+    // QUESTION #6
+    question: "What was Hamilton's role during the Quasi war?",
+    imgSrc: "img/hamilton.jpg",
+    choiceA: "Inspector General of the Army",
+    choiceB: "Artillery captain",
+    choiceC: "Was not alive during Quasi war",
+    choiceD: "Diplomat in France",
     correct: "A"
   },
   {
-    // QUESTION #10
+    // QUESTION #7
+    question: "What year did Hamilton die?",
+    imgSrc: "img/hamilton.jpg",
+    choiceA: "1799",
+    choiceB: "1804",
+    choiceC: "1812",
+    choiceD: "1813",
+    correct: "B"
+  },
+  {
+    // QUESTION #8
     question:
-      "Bonus Question! What type of wood was Fort Moultrie in Charleston made out of?",
-    imgSrc: "img/declarationcongress.jpg",
-    choiceA: "Cork oak",
-    choiceB: "Eucalyptus wood",
-    choiceC: "Palmetto wood",
-    choiceD: "Ironwood",
+      "Who's quote about Hamilton? 'O I have read his Heart in his wicked Eyes many a time. The very devil is in them.' ",
+    imgSrc: "img/hamilton.jpg",
+    choiceA: "Elizabeth Hamilton",
+    choiceB: "Thomas Jefferson",
+    choiceC: "Abigail Adams",
+    choiceD: "Aaron Burr",
+    correct: "C"
+  },
+  {
+    // QUESTION #9
+    question: "Where does the duel between Hamilton and Burr take place?",
+    imgSrc: "img/hamilton.jpg",
+    choiceA: "New York, NY",
+    choiceB: "International Waters",
+    choiceC: "Weehawken, NJ",
+    choiceD: "Lawn in front of The White House",
+    correct: "C"
+  },
+  {
+    // QUESTION #10
+    question: "What battle did Hamilton's horse get shot from under him?",
+    imgSrc: "img/hamilton.jpg",
+    choiceA: "Bunker Hill",
+    choiceB: "Brandywine",
+    choiceC: "Monmouth",
+    choiceD: "Yorktown",
     correct: "C"
   }
 ];

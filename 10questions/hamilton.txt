@@ -1,0 +1,86 @@
+let questions = [
+    {   // QUESTION #1
+        question: "Where was Alexander Hamilton born?",
+        imgSrc: "",
+        choiceA: "Scottland",
+        choiceB: "Wales",
+        choiceC: "New York",
+        choiceD: "The Caribbean",
+        correct: "D"
+    }, { // QUESTION #2
+        question: "When living in The Caribbean, young Hamilton notably wrote about what event?",
+        imgSrc: "",
+        choiceA: "A fire that killed his family",
+        choiceB: "A smallpox outbreak",
+        choiceC: "A hurricane",
+        choiceD: "A rebellion",
+        correct: "C"
+    },
+    {   // QUESTION #3
+        question: "What college did Alexander Hamilton actually attend?",
+        imgSrc: "",
+        choiceA: "Collge of New Jersey",
+        choiceB: "Kings College",
+        choiceC: "College of William & Mary",
+        choiceD: "Never went to college",
+        correct: "B"
+    }, { // QUESTION #4
+        question: "What was Hamilton's role in Washington's cabinet?",
+        imgSrc: "",
+        choiceA: "Secretary of War",
+        choiceB: "Secretary of the Treasury",
+        choiceC: "Vice President",
+        choiceD: "Secretary of State",
+        correct: "B"
+    }, { // QUESTION #5
+        question: "Hamilton, Madison, and John Jay wrote 85 essays called:",
+        imgSrc: "",
+        choiceA: "US Constitution",
+        choiceB: "Declaration of Independence",
+        choiceC: "Bill of Rights",
+        choiceD: "Federalist Papers",
+        correct: "D"
+    }, { // QUESTION #6
+        question: "What was Hamilton's role during the Quasi war?",
+        imgSrc: "",
+        choiceA: "Inspector General of the Army",
+        choiceB: "Artillery captain",
+        choiceC: "Was not alive during Quasi war",
+        choiceD: "Diplomat in France",
+        correct: "A"
+    }, { // QUESTION #7
+        question: "Hamilton led an army to supress which rebellion?",
+        imgSrc: "",
+        choiceA: "Shays Rebellion",
+        choiceB: "Whiskey Rebellion",
+	choiceC: "Teenage Rebellion",
+        choiceD: "Fries's Rebellion",
+        correct: "B"
+    }, { // QUESTION #8
+        question: "who's quote? 'O I have read his Heart in his wicked Eyes many a time. 
+The very devil is in them. 
+They are laciviousness itself, or I have no skill in Physiognomy.' ",
+        imgSrc: "",
+        choiceA: "Elizabeth Hamilton",
+        choiceB: "Thomas Jefferson",
+        choiceC: "Abigail Adams",
+        choiceD: "Aaron Burr",
+        correct: "C"
+    }, { // QUESTION #9
+        question: "Where does the duel between Hamilton and Burr take place?",
+        imgSrc: "",
+        choiceA: "New York, NY",
+        choiceB: "International Waters",
+        choiceC: "Weehawken, NJ",
+        choiceD: "Lawn in front of The White House",
+        correct: "C"
+    }, { // QUESTION #10
+        question: "What battle did Hamilton's horse get shot from under him?",
+        imgSrc: "",
+        choiceA: "Bunker Hill",
+        choiceB: "Brandywine",
+        choiceC: "Monmouth",
+        choiceD: "Yorktown",
+        correct: "C"
+    }
+];
