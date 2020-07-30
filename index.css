@@ -366,7 +366,7 @@ main p {
 #backToTop {
   max-width: 100%;
   width: 1200px;
-  margin: 80px auto;
+  margin: 0 auto;
   padding: 0 40px;
   box-sizing: border-box;
   border: 8px solid rgb(253, 0, 0);
